@@ -1,0 +1,9 @@
+
+
+
+/*ALTER TABLE
+{
+    [NOME DA TABELA]
+}
+ADD 
+    [NOME DA COLUNA]*/
