@@ -45,16 +45,25 @@ VALUES
 
 SELECT * FROM time_futebol;
 
+<<<<<<< HEAD
 SELECT 'Alter table insert column ' AS 'PRINT DADO';
 ALTER TABLE 
 time_futebol
 ADD COLUMN observacao VARCHAR(255) AFTER GOLS,
+=======
+SELECT 'Alter table insert column' AS 'PRINT DADO';
+
+ALTER TABLE
+    time_futebol
+ADD COLUMN observacao VARCHAR(255) AFTER gols,     
+>>>>>>> 06f5848d9a7dcf228832d303ad28947c82771bd3
 ADD COLUMN ponto_campeonato INTEGER NOT NULL DEFAULT 0 AFTER gols,
 ADD COLUMN campeonato enum('brasileiro','libertadores','paranaense','paulista') NOT NULL DEFAULT 'brasileiro' AFTER gols;
 
 SELECT * FROM time_futebol;
 
 
+<<<<<<< HEAD
 SELECT 'Alter table DROP column column ' AS 'PRINT DADO';
 
 ALTER TABLE 
@@ -81,3 +90,25 @@ UPDATE
 SET
     ponto_campeonato = 25.2;
 SELECT * FROM time_futebol;
+=======
+SELECT 'Modifica uma Coluna' AS 'PRINT DADO';
+
+UPDATE 
+    time_futebol 
+SET 
+    ponto_campeonato = 25;
+
+ALTER TABLE
+    time_futebol
+MODIFY COLUMN ponto_campeonato FLOAT;
+
+DESCRIBE time_futebol;
+
+
+UPDATE 
+    time_futebol 
+SET 
+    ponto_campeonato = 25.2;
+
+SELECT * FROM time_futebol;
+>>>>>>> 06f5848d9a7dcf228832d303ad28947c82771bd3
