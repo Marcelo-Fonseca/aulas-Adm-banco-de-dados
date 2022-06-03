@@ -48,11 +48,17 @@ INSERT INTO
 
     SELECT * FROM bebidas;
 
-   /* SELECT 'INSERIR COLUNAS ' AS ' PRINT DADO';*/
+ SELECT 'INSERIR COLUNAS ' AS ' PRINT DADO';
 
-    /*ALTER TABLE
+    ALTER TABLE
         bebidas
-    ADD COLUMN   */  
+    ADD COLUMN  cor VARCHAR(25) AFTER marca;
+
+    SELECT TABLE bebidas;
+    ALTER TABLE  bebidas;
+
+    SELECT * from bebidas;
+    
 
 
 /*verificar que esta acontecendo esta dando erro na liha 28 e 49*/
