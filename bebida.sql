@@ -1,3 +1,4 @@
+-- Active: 1656617184079@@127.0.0.1@3306@bebida
 /*Crie uma tabela que contem os seguintes dados:
 
 Nome ta tabela: bebidas, com as seguintes colunas: id_bebida, tipo, marca, data de insercao (sempre com a data do dia)
