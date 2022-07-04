@@ -33,7 +33,7 @@ bebidas
 VALUES
 (
     'cerveja',
-    'Brahma'
+    'Antartica'
 ),
 (
     'vodka',
